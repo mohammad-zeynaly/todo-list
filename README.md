@@ -2,7 +2,7 @@
 ---
 
 # a minimal todolist!
-## [review online](https://mohammad-zeynali.github.io/shopping-cart/)
+## [review online](https://mohammad-zeynali.github.io/todo-list/)
 
 ---
 ## tips
