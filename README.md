@@ -2,7 +2,7 @@
 ---
 
 # a minimal todolist!
-## [review online](git )
+## [review online](https://mohammad-zeynali.github.io/todo-list/)
 
 ---
 ## tips
