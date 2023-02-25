@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/styles/app-min.css"><!-- styles tailwind Css-->
+    <title>Todo List</title>
+</head>
+<body class="bg-[#352f5b] font-gilroy">
+
+<section class="text-[#F8F9FA] text-center my-6 max-w-[450px] mx-auto">
+    <div class="container px-4">
+        <h1 class="text-3xl mb-4 sm:text-4xl font-semibold sm:font-bold">Todo List</h1>
+        <form action="#" class="flex flex-col">
+            <label class="mb-4" for="todo-input">Add a new todo:</label>
+            <div class="flex">
+                <input type="text" id="todo-input" name="todo-input" class="focus:outline-none rounded-md bg-[#00000033] text-white p-[6px] w-full mr-2">
+                <button id="add-todo" class="bg-[#4a417a] w-10 h-9 flex justify-center items-center rounded-md">
+                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V13H17C17.5523 13 18 12.5523 18 12C18 11.4477 17.5523 11 17 11H13V7C13 6.44771 12.5523 6 12 6C11.4477 6 11 6.44771 11 7V11H7C6.44772 11 6 11.4477 6 12C6 12.5523 6.44772 13 7 13H11V17Z" fill="#ffffff"/>
+                    </svg>
+                </button>
+            </div>
+        </form>
+        <div class="todos mt-5">
+            <ul id="todo-lists" class="flex flex-col">
+                <!-- Add Template Todo Lists -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<script src="./src/assets/scripts/app.js"></script><!-- App Js -->
+</body>
+</html>
